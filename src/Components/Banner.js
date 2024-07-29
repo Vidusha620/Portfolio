@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.jpeg";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+import { BsArrowRightCircle } from 'react-icons/bs';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -58,7 +58,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hello! I'm Vidusha,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Tech Enthusiast", "Software Developer", "Full-stack Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm a passionate Computer Science Undergraduate,willing to explore each and every aspects of wonderful tech world.I'm eager to learn and find interesting solutions through unique ideas and gain valuable experiences through this journey.Let’s work together to create a fascinating future!</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => console.log('connect')}>Let’s Connect <BsArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
